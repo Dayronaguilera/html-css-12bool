@@ -1,0 +1,27 @@
+.container{
+    background-color: pink;
+}
+
+.row div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    flex-grow: 1;
+} 
+.row> div{
+    padding: 5px;
+    border: 1px black solid;
+}
+.color div{
+    height: 140px;
+    border: 2px white solid;
+    text-align: center;
+    background: salmon; 
+}
+
+
+
+
+
+
